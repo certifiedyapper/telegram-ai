@@ -21,7 +21,7 @@ def detect_image(input_path, model):
     return index, confidence_score
 
 
-bot = telebot.TeleBot('7908146027:AAHEtl5s_J1f_uyArkuPMrlxUqexrTfQr1g')
+bot = telebot.TeleBot('!bot token here!')
 
 @bot.message_handler(commands=['start'])
 def start_cnd(message: Message):
